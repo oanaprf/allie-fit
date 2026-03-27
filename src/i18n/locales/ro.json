@@ -1,0 +1,83 @@
+{
+  "nav": {
+    "home": "Acasă",
+    "personalTraining": "Antrenamente Personale",
+    "yoga": "Yoga",
+    "functionalTraining": "Functional Training",
+    "transformations": "Transformări",
+    "contact": "Contact",
+    "bookNow": "Rezervă acum"
+  },
+  "hero": {
+    "badge": "Studio de fitness premium",
+    "title": "Transformă-ți",
+    "titleAccent": "corpul și mintea",
+    "subtitle": "Antrenamente personalizate, yoga și functional training pentru rezultate reale. Împreună construim cea mai bună versiune a ta.",
+    "cta": "Începe acum",
+    "ctaSecondary": "Descoperă serviciile"
+  },
+  "services": {
+    "title": "Serviciile noastre",
+    "subtitle": "Fiecare program este conceput pentru nevoile tale unice",
+    "personalTraining": {
+      "title": "Antrenamente Personale",
+      "description": "Sesiuni 1-to-1 personalizate care combină fitness clasic, functional training, tabata, HIIT, cardio și TRX. Include evaluare inițială, cântărire, măsurători, stabilire obiective și plan nutrițional personalizat.",
+      "features": ["Evaluare inițială completă", "Plan nutrițional personalizat", "2-3 ședințe pe săptămână", "Monitorizare continuă"]
+    },
+    "yoga": {
+      "title": "Yoga",
+      "description": "Clase de yoga conduse de instructoarea Lidia, certificată cu 200 ore YTT, recunoscută de Yoga Alliance USA. Practică din 2015.",
+      "features": ["Luni 20:00", "Vineri 19:00", "50 lei / oră", "Toate nivelurile"]
+    },
+    "functionalTraining": {
+      "title": "Functional Training",
+      "description": "Antrenamente de grup focusate pe mișcări funcționale ce îmbunătățesc forța, mobilitatea și rezistența în viața de zi cu zi.",
+      "features": ["Luni 19:00", "Miercuri 19:00", "Grupe mici", "Echipament modern"]
+    }
+  },
+  "about": {
+    "title": "De ce Allie Fit?",
+    "subtitle": "Nu suntem doar un studio de fitness — suntem partenerul tău de transformare",
+    "reasons": [
+      {
+        "title": "Abordare personalizată",
+        "description": "Fiecare client primește un plan adaptat obiectivelor, nivelului de fitness și stilului de viață propriu."
+      },
+      {
+        "title": "Instructori certificați",
+        "description": "Echipa noastră deține certificări internaționale și experiență vastă în domeniu."
+      },
+      {
+        "title": "Rezultate dovedite",
+        "description": "Sute de transformări reale ale clienților noștri vorbesc despre eficiența programelor noastre."
+      },
+      {
+        "title": "Suport continuu",
+        "description": "Monitorizare și ghidare pe tot parcursul programului, nu doar în sala de antrenament."
+      }
+    ]
+  },
+  "transformations": {
+    "title": "Transformări reale",
+    "subtitle": "Rezultatele clienților noștri sunt cea mai bună dovadă",
+    "before": "Înainte",
+    "after": "După"
+  },
+  "contact": {
+    "title": "Gata să începi?",
+    "subtitle": "Rezervă prima ta ședință gratuită de evaluare și facem primul pas împreună",
+    "cta": "Contactează-ne",
+    "phone": "Telefon",
+    "email": "Email",
+    "location": "Locație",
+    "locationValue": "București, România"
+  },
+  "footer": {
+    "tagline": "Transformă-te cu Allie Fit",
+    "rights": "Toate drepturile rezervate.",
+    "links": {
+      "privacy": "Politică de confidențialitate",
+      "terms": "Termeni și condiții"
+    }
+  }
+}

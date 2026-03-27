@@ -1,0 +1,83 @@
+{
+  "nav": {
+    "home": "Home",
+    "personalTraining": "Personal Training",
+    "yoga": "Yoga",
+    "functionalTraining": "Functional Training",
+    "transformations": "Transformations",
+    "contact": "Contact",
+    "bookNow": "Book Now"
+  },
+  "hero": {
+    "badge": "Premium fitness studio",
+    "title": "Transform your",
+    "titleAccent": "body and mind",
+    "subtitle": "Personalized training, yoga and functional training for real results. Together we build the best version of you.",
+    "cta": "Start now",
+    "ctaSecondary": "Discover services"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Every program is designed for your unique needs",
+    "personalTraining": {
+      "title": "Personal Training",
+      "description": "Personalized 1-on-1 sessions combining classic fitness, functional training, tabata, HIIT, cardio and TRX. Includes initial evaluation, weighing, measurements, goal setting and personalized nutrition plan.",
+      "features": ["Full initial evaluation", "Personalized nutrition plan", "2-3 sessions per week", "Continuous monitoring"]
+    },
+    "yoga": {
+      "title": "Yoga",
+      "description": "Yoga classes led by instructor Lidia, certified with 200-hour YTT, recognized by Yoga Alliance USA. Practicing since 2015.",
+      "features": ["Monday 8 PM", "Friday 7 PM", "50 lei / hour", "All levels"]
+    },
+    "functionalTraining": {
+      "title": "Functional Training",
+      "description": "Group workouts focused on functional movements that improve strength, mobility and endurance in everyday life.",
+      "features": ["Monday 7 PM", "Wednesday 7 PM", "Small groups", "Modern equipment"]
+    }
+  },
+  "about": {
+    "title": "Why Allie Fit?",
+    "subtitle": "We're not just a fitness studio — we're your transformation partner",
+    "reasons": [
+      {
+        "title": "Personalized approach",
+        "description": "Every client receives a plan adapted to their goals, fitness level and lifestyle."
+      },
+      {
+        "title": "Certified instructors",
+        "description": "Our team holds international certifications and vast experience in the field."
+      },
+      {
+        "title": "Proven results",
+        "description": "Hundreds of real transformations from our clients speak to the effectiveness of our programs."
+      },
+      {
+        "title": "Continuous support",
+        "description": "Monitoring and guidance throughout the program, not just in the training room."
+      }
+    ]
+  },
+  "transformations": {
+    "title": "Real Transformations",
+    "subtitle": "Our clients' results are the best proof",
+    "before": "Before",
+    "after": "After"
+  },
+  "contact": {
+    "title": "Ready to start?",
+    "subtitle": "Book your first free evaluation session and we'll take the first step together",
+    "cta": "Contact us",
+    "phone": "Phone",
+    "email": "Email",
+    "location": "Location",
+    "locationValue": "Bucharest, Romania"
+  },
+  "footer": {
+    "tagline": "Transform with Allie Fit",
+    "rights": "All rights reserved.",
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms & Conditions"
+    }
+  }
+}
