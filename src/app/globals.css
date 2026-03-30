@@ -1,17 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
 @import "tailwindcss";
 
 :root {
-  --background: #0d0d0d;
-  --foreground: #ffffff;
-  --gold: #C9A84C;
-  --gold-dark: #b8943e;
-  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --color-primary: #970092;
+  --color-primary-dark: #570057;
+  --color-primary-light: #af02a5;
+  --color-background: #fdfafd;
+  --color-elevated: #f1e8f1;
+  --color-text-primary: #1e1e1e;
+  --color-text-secondary: #585454;
+  --color-white: #ffffff;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-sans);
+  --color-background: var(--color-background);
+  --color-foreground: var(--color-text-primary);
+  --color-primary: var(--color-primary);
+  --font-sans: 'Montserrat', sans-serif;
 }
 
 html {
@@ -19,31 +24,30 @@ html {
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: var(--color-background);
+  color: var(--color-text-primary);
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  min-width: 100vw;
+  min-height: 100vh;
+  margin: 0;
 }
 
-/* Custom scrollbar */
+::selection {
+  background: var(--color-primary);
+  color: #fff;
+}
+
 ::-webkit-scrollbar {
   width: 6px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #111111;
+  background: var(--color-elevated);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #333333;
+  background: var(--color-primary-light);
   border-radius: 3px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #C9A84C;
-}
-
-/* Selection color */
-::selection {
-  background: #C9A84C;
-  color: #000;
 }

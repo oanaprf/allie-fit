@@ -9,71 +9,70 @@
     "bookNow": "Book Now"
   },
   "hero": {
-    "badge": "Premium fitness studio",
     "title": "Transform your",
     "titleAccent": "body and mind",
     "subtitle": "Personalized training, yoga and functional training for real results. Together we build the best version of you.",
-    "cta": "Start now",
-    "ctaSecondary": "Discover services"
+    "cta": "Contact us"
   },
   "services": {
+    "eyebrow": "What we offer",
     "title": "Our Services",
     "subtitle": "Every program is designed for your unique needs",
+    "learnMore": "Learn more",
     "personalTraining": {
       "title": "Personal Training",
-      "description": "Personalized 1-on-1 sessions combining classic fitness, functional training, tabata, HIIT, cardio and TRX. Includes initial evaluation, weighing, measurements, goal setting and personalized nutrition plan.",
-      "features": ["Full initial evaluation", "Personalized nutrition plan", "2-3 sessions per week", "Continuous monitoring"]
+      "description": "Personalized 1-on-1 sessions combining classic fitness, functional training, tabata, HIIT, cardio and TRX. Includes initial evaluation, nutrition plan and continuous monitoring."
     },
-    "yoga": {
-      "title": "Yoga",
-      "description": "Yoga classes led by instructor Lidia, certified with 200-hour YTT, recognized by Yoga Alliance USA. Practicing since 2015.",
-      "features": ["Monday 8 PM", "Friday 7 PM", "50 lei / hour", "All levels"]
+    "groupClasses": {
+      "title": "Group Classes",
+      "description": "Dynamic group classes: Kangoo Jumps, Functional Training and Latino Dance. Energy, fun and guaranteed results."
     },
-    "functionalTraining": {
-      "title": "Functional Training",
-      "description": "Group workouts focused on functional movements that improve strength, mobility and endurance in everyday life.",
-      "features": ["Monday 7 PM", "Wednesday 7 PM", "Small groups", "Modern equipment"]
+    "nutritionPlans": {
+      "title": "Nutrition Plans",
+      "description": "Personalized meal plans created according to your goals and lifestyle, to maximize your training results."
     }
   },
   "about": {
-    "title": "Why Allie Fit?",
-    "subtitle": "We're not just a fitness studio — we're your transformation partner",
+    "title": "About me",
+    "description1": "I am passionate about fitness and I believe every person deserves to feel great in their own skin. With years of experience in personal training, yoga and nutrition, I offer you a complete program adapted to your needs.",
+    "description2": "My approach is holistic — I don't just focus on the physical aspect, but also on your mental and emotional wellbeing. Every session is designed to bring you joy and energy.",
+    "description3": "Regardless of your fitness level or goals, I'm here to guide you step by step toward the best version of yourself.",
     "reasons": [
       {
         "title": "Personalized approach",
-        "description": "Every client receives a plan adapted to their goals, fitness level and lifestyle."
+        "description": "Every program is adapted to your goals and fitness level."
       },
       {
         "title": "Certified instructors",
-        "description": "Our team holds international certifications and vast experience in the field."
+        "description": "International certifications and vast experience in the field."
       },
       {
         "title": "Proven results",
-        "description": "Hundreds of real transformations from our clients speak to the effectiveness of our programs."
+        "description": "Hundreds of real transformations that speak for themselves."
       },
       {
         "title": "Continuous support",
-        "description": "Monitoring and guidance throughout the program, not just in the training room."
+        "description": "Monitoring and guidance throughout the program."
       }
     ]
   },
   "transformations": {
+    "eyebrow": "Success stories",
     "title": "Real Transformations",
-    "subtitle": "Our clients' results are the best proof",
-    "before": "Before",
-    "after": "After"
+    "subtitle": "Our clients' results are the best proof of the effectiveness of our programs."
   },
   "contact": {
     "title": "Ready to start?",
-    "subtitle": "Book your first free evaluation session and we'll take the first step together",
-    "cta": "Contact us",
+    "subtitle": "Book your first free evaluation session and we'll take the first step together.",
+    "formTitle": "Send us a message",
+    "cta": "Send message",
     "phone": "Phone",
     "email": "Email",
     "location": "Location",
     "locationValue": "Bucharest, Romania"
   },
   "footer": {
-    "tagline": "Transform with Allie Fit",
+    "tagline": "Transform with Allie Fit Studio",
     "rights": "All rights reserved.",
     "links": {
       "privacy": "Privacy Policy",

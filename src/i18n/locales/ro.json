@@ -9,71 +9,70 @@
     "bookNow": "Rezervă acum"
   },
   "hero": {
-    "badge": "Studio de fitness premium",
     "title": "Transformă-ți",
     "titleAccent": "corpul și mintea",
     "subtitle": "Antrenamente personalizate, yoga și functional training pentru rezultate reale. Împreună construim cea mai bună versiune a ta.",
-    "cta": "Începe acum",
-    "ctaSecondary": "Descoperă serviciile"
+    "cta": "Contactează-ne"
   },
   "services": {
+    "eyebrow": "Ce oferim",
     "title": "Serviciile noastre",
     "subtitle": "Fiecare program este conceput pentru nevoile tale unice",
+    "learnMore": "Află mai multe",
     "personalTraining": {
       "title": "Antrenamente Personale",
-      "description": "Sesiuni 1-to-1 personalizate care combină fitness clasic, functional training, tabata, HIIT, cardio și TRX. Include evaluare inițială, cântărire, măsurători, stabilire obiective și plan nutrițional personalizat.",
-      "features": ["Evaluare inițială completă", "Plan nutrițional personalizat", "2-3 ședințe pe săptămână", "Monitorizare continuă"]
+      "description": "Sesiuni 1-to-1 personalizate care combină fitness clasic, functional training, tabata, HIIT, cardio și TRX. Include evaluare inițială, plan nutrițional și monitorizare continuă."
     },
-    "yoga": {
-      "title": "Yoga",
-      "description": "Clase de yoga conduse de instructoarea Lidia, certificată cu 200 ore YTT, recunoscută de Yoga Alliance USA. Practică din 2015.",
-      "features": ["Luni 20:00", "Vineri 19:00", "50 lei / oră", "Toate nivelurile"]
+    "groupClasses": {
+      "title": "Clase de Grup",
+      "description": "Clase dinamice de grup: Kangoo Jumps, Functional Training și Latino Dance. Energie, distracție și rezultate garantate."
     },
-    "functionalTraining": {
-      "title": "Functional Training",
-      "description": "Antrenamente de grup focusate pe mișcări funcționale ce îmbunătățesc forța, mobilitatea și rezistența în viața de zi cu zi.",
-      "features": ["Luni 19:00", "Miercuri 19:00", "Grupe mici", "Echipament modern"]
+    "nutritionPlans": {
+      "title": "Planuri Nutriționale",
+      "description": "Planuri alimentare personalizate create în funcție de obiectivele și stilul tău de viață, pentru a maximiza rezultatele antrenamentelor."
     }
   },
   "about": {
-    "title": "De ce Allie Fit?",
-    "subtitle": "Nu suntem doar un studio de fitness — suntem partenerul tău de transformare",
+    "title": "Despre mine",
+    "description1": "Sunt pasionată de fitness și cred că fiecare persoană merită să se simtă bine în propria piele. Cu ani de experiență în antrenamente personale, yoga și nutriție, îți ofer un program complet adaptat nevoilor tale.",
+    "description2": "Abordarea mea este una holistică — nu mă concentrez doar pe aspectul fizic, ci și pe starea ta mentală și emoțională. Fiecare ședință este concepută să îți aducă bucurie și energie.",
+    "description3": "Indiferent de nivelul tău de fitness sau obiectivele tale, sunt aici să te ghidez pas cu pas spre cea mai bună versiune a ta.",
     "reasons": [
       {
         "title": "Abordare personalizată",
-        "description": "Fiecare client primește un plan adaptat obiectivelor, nivelului de fitness și stilului de viață propriu."
+        "description": "Fiecare program este adaptat obiectivelor și nivelului tău de fitness."
       },
       {
         "title": "Instructori certificați",
-        "description": "Echipa noastră deține certificări internaționale și experiență vastă în domeniu."
+        "description": "Certificări internaționale și experiență vastă în domeniu."
       },
       {
         "title": "Rezultate dovedite",
-        "description": "Sute de transformări reale ale clienților noștri vorbesc despre eficiența programelor noastre."
+        "description": "Sute de transformări reale care vorbesc de la sine."
       },
       {
         "title": "Suport continuu",
-        "description": "Monitorizare și ghidare pe tot parcursul programului, nu doar în sala de antrenament."
+        "description": "Monitorizare și ghidare pe tot parcursul programului."
       }
     ]
   },
   "transformations": {
+    "eyebrow": "Povești de succes",
     "title": "Transformări reale",
-    "subtitle": "Rezultatele clienților noștri sunt cea mai bună dovadă",
-    "before": "Înainte",
-    "after": "După"
+    "subtitle": "Rezultatele clienților noștri sunt cea mai bună dovadă a eficienței programelor noastre."
   },
   "contact": {
     "title": "Gata să începi?",
-    "subtitle": "Rezervă prima ta ședință gratuită de evaluare și facem primul pas împreună",
-    "cta": "Contactează-ne",
+    "subtitle": "Rezervă prima ta ședință gratuită de evaluare și facem primul pas împreună.",
+    "formTitle": "Trimite-ne un mesaj",
+    "cta": "Trimite mesajul",
     "phone": "Telefon",
     "email": "Email",
     "location": "Locație",
     "locationValue": "București, România"
   },
   "footer": {
-    "tagline": "Transformă-te cu Allie Fit",
+    "tagline": "Transformă-te cu Allie Fit Studio",
     "rights": "Toate drepturile rezervate.",
     "links": {
       "privacy": "Politică de confidențialitate",
