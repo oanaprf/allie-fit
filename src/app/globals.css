@@ -1,53 +1,101 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400&display=swap');
 @import "tailwindcss";
 
 :root {
-  --color-primary: #970092;
-  --color-primary-dark: #570057;
-  --color-primary-light: #af02a5;
-  --color-background: #fdfafd;
-  --color-elevated: #f1e8f1;
-  --color-text-primary: #1e1e1e;
-  --color-text-secondary: #585454;
-  --color-white: #ffffff;
+  --primary: #970092;
+  --primary-dark: #570057;
+  --primary-light: #af02a5;
+  --primary-pale: #f1e8f1;
+  --background: #fdfafd;
+  --surface: #ffffff;
+  --text: #1e1e1e;
+  --text-muted: #585454;
+  --text-faint: #9e9a9e;
 }
 
 @theme inline {
-  --color-background: var(--color-background);
-  --color-foreground: var(--color-text-primary);
-  --color-primary: var(--color-primary);
   --font-sans: 'Montserrat', sans-serif;
+  --color-background: var(--background);
+  --color-foreground: var(--text);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
 html {
   scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
 }
 
 body {
-  background: var(--color-background);
-  color: var(--color-text-primary);
+  background: var(--background);
+  color: var(--text);
   font-family: 'Montserrat', sans-serif;
-  line-height: 1.5;
   font-weight: 400;
-  min-width: 100vw;
-  min-height: 100vh;
+  line-height: 1.6;
   margin: 0;
+  overflow-x: hidden;
 }
 
 ::selection {
-  background: var(--color-primary);
+  background: var(--primary);
   color: #fff;
 }
 
-::-webkit-scrollbar {
-  width: 6px;
+/* ── Diagonal clip helpers ── */
+.clip-diagonal-bottom {
+  clip-path: polygon(0 0, 100% 0, 100% 88%, 0 100%);
 }
 
-::-webkit-scrollbar-track {
-  background: var(--color-elevated);
+.clip-diagonal-top {
+  clip-path: polygon(0 6%, 100% 0, 100% 100%, 0 100%);
 }
 
-::-webkit-scrollbar-thumb {
-  background: var(--color-primary-light);
-  border-radius: 3px;
+.clip-diagonal-both {
+  clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%);
 }
+
+.clip-diagonal-img {
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+/* ── Geometric line decoration ── */
+.geo-line::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 40px,
+    rgba(151, 0, 146, 0.03) 40px,
+    rgba(151, 0, 146, 0.03) 41px
+  );
+  pointer-events: none;
+}
+
+/* ── Floating card depth ── */
+.float-card {
+  box-shadow:
+    0 2px 4px rgba(151, 0, 146, 0.04),
+    0 8px 24px rgba(151, 0, 146, 0.08),
+    0 24px 48px rgba(0, 0, 0, 0.06);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.float-card:hover {
+  transform: translateY(-6px);
+  box-shadow:
+    0 4px 8px rgba(151, 0, 146, 0.06),
+    0 16px 40px rgba(151, 0, 146, 0.12),
+    0 32px 64px rgba(0, 0, 0, 0.08);
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: var(--primary-pale); }
+::-webkit-scrollbar-thumb { background: var(--primary-light); border-radius: 3px; }
